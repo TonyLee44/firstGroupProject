@@ -1,24 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="immigration.css" type="text/css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hope Sanctuary</title>
+    <link rel="stylesheet" href="contact.css" />
+    <script
+      src="https://kit.fontawesome.com/4f8f4e9325.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
     <header>
-        <h1>Immigration</h1>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="donate.html">Donate</a></li>
-                <li><a href="shelter.html">Shelter</a></li>
-                <li><a href="legal.html">Legal</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <h1 class="logo">Hope Sanctuary</h1>
+
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="shelter.html">Shelter</a></li>
+          <li><a href="legal.html">Legal</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-</body>
+
+    <div class="hero-image"></div>
+
+    <div class="container2">
+      <form>
+        <h1 class="writing">
+          A Sanctuary for Undocumented Immigrants and Refugees
+        </h1>
+        <p>
+          There are an estimated 10.5 million to 12 million undocumented
+          immigrants living in the U.S. That is approximately 3.2%–3.6% of the
+          population.,<br />
+          <a href="donate.html">Donate and Help, Click on This Link</a>
+        </p>
+        <br />
+
+        <h2>Contact Us</h2>
+        <label for="fname">First Name</label><br />
+        <input type="text" id="fname" placeholder="John" required /><br />
+        <label for="lname">Last Name</label><br />
+        <input type="text" id="lname" placeholder="Doe" required /><br />
+        <label for="Pnumber">Phone Number</label><br />
+        <input type="tel" id="Pnumber" placeholder="1234567890" /><br />
+        <label for="email">Email</label><br />
+        <input
+          type="Email"
+          id="email"
+          placeholder="@gmail.com"
+          required
+        /><br />
+        <label for="DOB">Date of Birth</label><br />
+        <input type="date" id="DOB" required /><br />
+        <label for="comment">
+          Comment<br /><textarea
+            cols="35"
+            rows="5"
+            name="mes"
+            id="comment"
+          ></textarea></label
+        ><br />
+        <button>Submit</button>
+      </form>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+      <div class="footer-text">
+        <div class="copyright">
+          <p>
+            &copy; Hope Sanctuary. A Sanctuary for Undocumented Immigrants and
+            Refugees . ALL RIGHTS RESERVED.
+          </p>
+        </div>
+        <br />
+        <div class="footer-links">
+          <a href="home.html">| Home page |</a>
+          <a href="contact.html"> Contact Us |</a>
+          <a href="legal.html"> Legal Help </a>
+          <a href="shelter.html">| Shelter |</a>
+          <a href="donate.html">| Donate |</a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
