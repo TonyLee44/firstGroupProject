@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: oblique;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-color: whitesmoke;
+}
+header{
+padding: 50px;
+    height: 200%;
+    color: whitesmoke;
+    background-color: rgba(6, 7, 73, 0.87);
+
+}
+
+.logo{
+    float: left;
+    text-align: center;
+    
+}
+/* Editing for sanctuary heading */
+.writing{
+    margin-top: 35px;
+}
+
+
+
+
+nav ul{
+    float: right;
+    line-height: 50px;
+    list-style: none;
+    }
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    padding: 30px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+
+
+.container2 {
+    width: 90%;
+    height: 100%;
+    max-width: 1o00px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+  }
+
+
+  /* footer css */
+
+#footer {
+    font-size: 15px;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  color: #423f3f;
+  /* text-shadow: 0 1px rgb(255, 254, 254); */
+  font-family: 'Caveat';
+  
+  text-align: center;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  
+}
+
+#footer .footer-text .footer-links a {
+text-decoration: none;
+color:black;
+}
+
+/* Hover Effect for footer links */
+#footer .footer-text .footer-links a:hover{
+    color: skyblue;
+}
