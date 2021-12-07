@@ -159,6 +159,13 @@ color:black;
 }
 /*CSS for Shelter html*/
 
-.infocontainer{
-    
+.photo{
+    height: 50%;
+    width: 1150px;
+}
+
+
+.about{
+    text-align: center;
+    margin-top: 50px;
 }
