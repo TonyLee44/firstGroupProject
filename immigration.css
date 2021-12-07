@@ -82,7 +82,7 @@ input {
       font-size: 30px;
     }
 
-
+/* Home CSS */
 #hero{
     padding:100px;
     width: 100%;
@@ -156,9 +156,11 @@ input {
     color:black;
     margin-top: 100px;
     
+    
 
 
 }
+
 
 #footer {
     font-size: 15px;
