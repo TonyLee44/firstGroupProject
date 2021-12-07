@@ -86,4 +86,31 @@ nav ul li a{
 
 }
 
+ /* footer css */
+
+ #footer {
+    font-size: 15px;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  color: #423f3f;
+  /* text-shadow: 0 1px rgb(255, 254, 254); */
+  font-family: 'Caveat';
+  
+  text-align: center;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  
+}
+
+#footer .footer-text .footer-links a {
+text-decoration: none;
+color:black;
+}
+
+/* Hover Effect for footer links */
+#footer .footer-text .footer-links a:hover{
+    color: skyblue;
+}
+
 
