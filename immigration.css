@@ -86,9 +86,7 @@ nav ul li a{
 
 }
 
- /* footer css */
-
- #footer {
+#footer {
     font-size: 15px;
   height: 3rem;
   margin-top: 2rem;
@@ -108,9 +106,9 @@ text-decoration: none;
 color:black;
 }
 
+
+
 /* Hover Effect for footer links */
 #footer .footer-text .footer-links a:hover{
     color: skyblue;
 }
-
-
