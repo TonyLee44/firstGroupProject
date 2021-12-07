@@ -63,7 +63,7 @@ nav ul li a {
 
 .wrapper {
     display: grid;
-    grid-template-columns: reapeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: 15em;
 }
 
@@ -71,7 +71,7 @@ nav ul li a {
     display: grid;
     grid-template-columns: 1fr;
 
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 1/4;
 }
 
@@ -82,6 +82,26 @@ nav ul li a {
 
 img {
     margin: 0 auto;
+    width: 400px;
+    height: auto;
+    grid-row: 2/3;
+}
+section {
+    margin: auto 0;
+}
+h3 {
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgba(6, 7, 73, 0.87);
+    font-size: 50px;
+    font-style: italic;
+
+}
+
+p {
+    margin: auto 0;
+    padding-top: 25px;
+    grid-row: 3/4;
 }
 
 label {
