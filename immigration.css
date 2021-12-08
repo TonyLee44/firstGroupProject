@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color:pink;
 }
 
 header {
@@ -215,4 +215,21 @@ input {
 /* Hover Effect for footer links */
 #footer .footer-text .footer-links a:hover {
     color: skyblue;
+}
+/*CSS for Shelter html*/
+
+.Apartment{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+
+.about{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 75px;
+    margin-top: 50px;
 }
