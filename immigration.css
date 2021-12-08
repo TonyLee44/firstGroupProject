@@ -141,8 +141,7 @@ input {
     text-align: center;
     font-size: 2rem;
     color: whitesmoke;
-    
-}
+    text-shadow:black 4px 4px;}
 
 
 .info a {
@@ -167,7 +166,7 @@ input {
     justify-content: center;
     text-align: center;
     font-size: 2rem;
-    color: rgba(241, 232, 232, 0.986);
+    color: rgba(241, 232, 232, 0.87);
     margin-top: 168px;
     background: linear-gradient(rgba(140, 140, 158, 0.452), rgba(103, 103, 161, 0.514)), url('img/IMMIGRATION\ 3.jpeg') no-repeat center/cover;
     
@@ -188,11 +187,7 @@ input {
     font-size: 2rem;
     color:black;
     margin-top: 100px;
-    
-    
-
-
-}
+    }
 /* Home Css end */
 
 #footer {
