@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color:pink;
 }
 
 header {
@@ -223,13 +223,18 @@ input {
 }
 /*CSS for Shelter html*/
 
-.photo{
-    height: 50%;
-    width: 1150px;
+.Apartment{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
 }
-
 
 .about{
     text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 75px;
     margin-top: 50px;
 }
