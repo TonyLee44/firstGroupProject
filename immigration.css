@@ -227,6 +227,13 @@ input {
     
 }
 
+
+.container1{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
 .about{
     text-align: center;
     margin-top: 30px;
@@ -235,18 +242,13 @@ input {
     margin-top: 50px;
 }
 
-.container1{
-    display: flex;
-    padding: 10px;
-}
-
 .card1{
     box-shadow: 1px 1px 2px 1px black;
     width: 90%;
     padding: 20px;
     display:flex;
     font-size: larger;
-
+    margin: 0auto;
 }
 
 .card2{
@@ -254,6 +256,12 @@ input {
     width: 90%; 
     padding: 20px;
     display: flex;
-    font-size: larger;
+    font-size: large;
+    margin: 0auto;
+}
 
+.about2{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
 }
