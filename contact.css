@@ -73,7 +73,7 @@ nav ul li a{
 #footer {
     font-size: 15px;
   height: 3rem;
-  margin-top: 2rem;
+  margin-top: 150px;
   margin-bottom: 5rem;
   color: #423f3f;
   /* text-shadow: 0 1px rgb(255, 254, 254); */
@@ -92,5 +92,5 @@ color:black;
 
 /* Hover Effect for footer links */
 #footer .footer-text .footer-links a:hover{
-    color: skyblue;
+    color: white;
 }
